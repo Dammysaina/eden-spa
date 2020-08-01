@@ -9,7 +9,7 @@ export default class Header extends Component {
             <div className="headerContainer">
                 <div className="headerContainerFlex">
                 <div className="headerLogo">
-                    <img src={`../images/edenlogo.svg`}/>
+                    <img src={`../images/edenlogo.svg`} alt="eden logo"/>
                 </div>
                 <div className="searchContainer">
                     <form className="headerSearch">
