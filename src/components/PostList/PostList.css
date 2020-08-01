@@ -1,0 +1,65 @@
+.experience-explore {
+    display: flex;
+    justify-content: space-between;
+}
+.experience-explore-text {
+    width: 560px;
+    color: white;
+}
+.experience-container {
+    background-color: black;
+    padding: 50px 70px 70px 70px;
+}
+.experience-button {
+    padding-top: 20px;
+}
+.experience-button button {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 7px 15px 7px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+} 
+.grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.grid-text {
+    background-color:#222222!important;
+    border-radius: 20px 20px 20px 20px !important;
+    width: 100%
+}
+.grid h4 {
+    font-weight: 200;
+}
+.grid h3 {
+    /* font-weight: 250; */
+    font-size: 15px;
+    padding-left: 15px;
+}
+.card4{
+    grid-column: 2/4;
+} 
+.card1 {
+    grid-row: 1/3;
+    height: 100%;
+}
+.card1 img {
+    height: 577px;
+}
