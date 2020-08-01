@@ -1,0 +1,22 @@
+.headerContainer {
+    background-color: rgb(175, 255, 223);
+    width: 1350px;
+    height: 80px;
+}
+.headerContainerFlex {
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    height: 100%;
+}
+.headerLogo {
+    padding: 16px 0 16px 88px;
+}
+.searchContainer {
+    width: 502.13px;
+    height: 50px;
+    border-radius: 25px;
+}
+.headerSearch {
+    padding: 25px 0 25px 0;
+}
