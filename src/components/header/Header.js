@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.Styles.css';
+import '../../components/PostList/PostList.js';
 
 
 export default class Header extends Component {
