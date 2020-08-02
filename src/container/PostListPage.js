@@ -9,7 +9,7 @@ const PostListPage = (props) => {
       ) : (
         <div>
           {props.data.map((d) => (
-            <div key={d.data.author_fullname} style={{padding: "0 20px"}}>
+            <div key={d.data.author_fullname} style={{padding: "0 40px"}}>
               <h3 className="postcontainerTitle">Sub Redit Title: {d.data.subreddit}</h3>
               <div className="card">
                     <img src={d.data.thumbnail} alt="thumbail" style={{height: "200px"}}/>
