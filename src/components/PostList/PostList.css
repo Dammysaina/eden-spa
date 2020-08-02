@@ -38,7 +38,6 @@ h2 {
 } */
 .card {
     width: 350px;
-    height: 350px;
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: -1px 10px 15px -6px rgba(0, 0, 0, 0.4);;
@@ -53,8 +52,7 @@ h2 {
     border-top-right-radius: 20px;
 }
 .card-text {
-    padding-left: 15px;
-    padding-bottom: 20px;
+    padding: 10px 20px;
 }
 .card-text h3{
     font-weight: 500;
@@ -68,13 +66,21 @@ h2 {
     width: 20px;
     height: 20px;
 }
+.card-text span {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 .card button {
     border-radius: 10px;
     border: none;
-    display: flex;
     background-color: #0AC97E;
     color: white;
-    width: 250px;
-    height: 20px;
-    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
 }
