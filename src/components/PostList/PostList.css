@@ -45,11 +45,24 @@ h2 {
 }
 .card-text {
     padding-left: 15px;
+    padding-bottom: 20px;
 }
-.card-text h2{
+.card-text h3{
     font-weight: 500;
+    color: #0AC97E ;
 }
 .card-text h4 {
     font-weight: 200;
     /* padding-bottom: 50px; */
+}
+.card-text img {
+    width: 20px;
+    height: 20px;
+}
+.card button {
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    background-color: #0AC97E;
+    color: white;
 }

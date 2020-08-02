@@ -14,23 +14,31 @@ export default class Postlist extends Component {
                     <div className="card-text">
                         <h3>Image Text Widget</h3>
                         <h4>Date:9th September, 2020.</h4>
-                        <img src={'/images/love.svg'} alt=""/>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                    
                 </div>
                 <div className="card">
                     <img src={'/images/eating.jpg'} alt=""/>
                     <div className="card-text">
-                        <h3>Monthly Stay</h3>
-                        <h4>Make airbnb your home, for stays of a month or longer.</h4>
+                    <h3>Image Text Widget</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                 </div>
                 <div className="card">
                     <img src={'/images/sheep.jpg'} alt=""/>
                     <div className="card-text">
-                        <h3>Frontline Stay</h3>
-                        <h4>Find or provide accomodations for covid-19 responders.</h4>
+                    <h3>Image Text Widget</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                 </div>
                 </div>
                 <h3 className="postcontainerTitle">Subreddit Title</h3>
@@ -39,24 +47,33 @@ export default class Postlist extends Component {
                 <div className="card">
                     <img src={`/images/lamb.jpg`} alt=""/>
                     <div className="card-text">
-                        <h3>Online Experiences</h3>
-                        <h4>Unique activities we can do together, led by world of hosts.</h4>
+                    <h3>Image Text Widget</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                    
                 </div>
                 <div className="card">
                     <img src={'/images/eating.jpg'} alt=""/>
                     <div className="card-text">
-                        <h3>Monthly Stay</h3>
-                        <h4>Make airbnb your home, for stays of a month or longer.</h4>
+                    <h3>Image Text Widget</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                 </div>
-                <div className="card">xa
+                <div className="card">
                     <img src={'/images/sheep.jpg'} alt=""/>
                     <div className="card-text">
-                        <h3>Frontline Stay</h3>
-                        <h4>Find or provide accomodations for covid-19 responders.</h4>
+                    <h3>Image Text Widget</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        
                     </div>
+                    <button>View post ></button>
                 </div>
                 </div>
             </div>
