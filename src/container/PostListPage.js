@@ -9,9 +9,21 @@ const PostListPage = (props) => {
       ) : (
         <div>
           {props.data.map((d) => (
-            <div key={d.data.author_fullname}>
-              <h3 className="postcontainerTitle">SubReddit Title: {d.data.subreddit}</h3>
-              <img src={d.data.thumbnail} alt="thumbail" />
+            <div key={d.data.author_fullname} style={{padding: "0 20px"}}>
+              <h3 className="postcontainerTitle">Sub Redit Title: {d.data.subreddit}</h3>
+              <div className="card">
+                    <img src={d.data.thumbnail} alt="thumbail" style={{height: "200px"}}/>
+                    <div className="card-text">
+                        <h3>{d.data.title}</h3>
+                        <h4>Date:9th September, 2020.</h4>
+                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        <button onClick={(e) => {
+                          e.preventDefault();
+                          window.open(d.data.url, "_blank");
+                          }}
+                        >Click To View Post </button>
+                    </div>
+                </div>
             </div>
           ))}
         </div>
