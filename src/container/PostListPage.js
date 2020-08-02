@@ -1,5 +1,4 @@
 import React from 'react';
-import './PostList.css'
 
 const PostListPage = (props) => {
   return (
