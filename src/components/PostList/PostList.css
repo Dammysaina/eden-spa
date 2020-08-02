@@ -10,6 +10,9 @@
 .postcontainerTitle {
     color: #0AC97E;
     text-align: center;
+    border-bottom: 1px solid #0AC97E;
+    border-top: 1px solid #0AC97E;
+    padding: 10px 10px;
 }
 .postListTop {
     display: flex;
