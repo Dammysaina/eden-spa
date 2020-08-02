@@ -6,7 +6,7 @@ export default class Postlist extends Component {
     render () {
         return (
             <div className="postContainer">
-                <h3>Subreddit Title</h3>
+                <h3 className="postcontainerTitle">Subreddit Title</h3>
                 <div className="postListTop">
                     
                 <div className="card">
@@ -33,7 +33,7 @@ export default class Postlist extends Component {
                     </div>
                 </div>
                 </div>
-                <h3>Subreddit Title</h3>
+                <h3 className="postcontainerTitle">Subreddit Title</h3>
                 <div className="postListBottom">
                 
                 <div className="card">
