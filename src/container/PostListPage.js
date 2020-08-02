@@ -16,7 +16,7 @@ const PostListPage = (props) => {
                     <div className="card-text">
                         <h3>{d.data.title}</h3>
                         <h4>Date:9th September, 2020.</h4>
-                        <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
+                        <span><img src={'/images/love.svg'} alt=""/>{d.data.ups} votes</span>
                         <button onClick={(e) => {
                           e.preventDefault();
                           window.open(d.data.url, "_blank");
