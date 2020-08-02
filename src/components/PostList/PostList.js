@@ -5,7 +5,7 @@ import './PostList.css'
 export default class Postlist extends Component {
     render () {
         return (
-            <div className="Post">
+            <div className="postContainer">
                 <div className="postListTop">
                 <div className="card">
                     <img src={`/images/lamb.jpg`} alt=""/>
@@ -54,7 +54,6 @@ export default class Postlist extends Component {
                     </div>
                 </div>
                 </div>
-                
             </div>
        )
     }

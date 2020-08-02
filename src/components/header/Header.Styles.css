@@ -24,10 +24,20 @@
 .headerSearch input {
     border: none;
     border-radius: 5px 0px 0px 5px;
+    font-size: 11px;
+    align-items: center;
+    height: 25px;
+    padding: 0 0 0 10px;
+    font-size: 7px;
+    width: 100px;
 }
 .headerSearch button {
     background-color: #0AC97E;
     border-radius: 0px 5px 5px 0px;
     border: none;
     color: white;
+    font-size: 11px;
+    height: 25px;
+    font-size: 7px;
+    /* align-items: center; */
 }
