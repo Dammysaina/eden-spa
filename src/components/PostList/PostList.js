@@ -26,7 +26,6 @@ export default class Postlist extends Component {
                     <h3>Image Text Widget</h3>
                         <h4>Date:9th September, 2020.</h4>
                         <span><img src={'/images/love.svg'} alt=""/>100 votes</span>
-                        
                     </div>
                     <button>View post ></button>
                 </div>
