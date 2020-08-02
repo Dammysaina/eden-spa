@@ -53,6 +53,7 @@ h2 {
 }
 .card-text {
     padding: 10px 20px;
+    word-wrap: break-word;
 }
 .card-text h3{
     font-weight: 500;
