@@ -10,7 +10,7 @@
     height: 100%;
 }
 .headerLogo {
-    padding: 16px 0 16px 88px;
+    padding: 16px 0 16px 80px;
 }
 .searchContainer {
     width: 300px;
@@ -19,16 +19,15 @@
    
 }
 .headerSearch {
-    padding: 25px 0 25px 0;
+    padding: 15px 0;
 }
 .headerSearch input {
     border: none;
     border-radius: 5px 0px 0px 5px;
-    font-size: 11px;
+    font-size: 12px;
     align-items: center;
     height: 50px;
     padding: 0 0 0 10px;
-    font-size: 7px;
     width: 100px;
 }
 .headerSearch button {
@@ -36,8 +35,9 @@
     border-radius: 0px 5px 5px 0px;
     border: none;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 900;
     height: 50px;
-    font-size: 7px;
+    width: 50px;
     /* align-items: center; */
 }
