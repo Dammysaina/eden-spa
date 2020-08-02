@@ -14,7 +14,7 @@
 }
 .searchContainer {
     width: 300px;
-    height: 50px;
+    /* height: 70px; */
     border-radius: 25px;
    
 }
@@ -26,7 +26,7 @@
     border-radius: 5px 0px 0px 5px;
     font-size: 11px;
     align-items: center;
-    height: 25px;
+    height: 50px;
     padding: 0 0 0 10px;
     font-size: 7px;
     width: 100px;
@@ -37,7 +37,7 @@
     border: none;
     color: white;
     font-size: 11px;
-    height: 25px;
+    height: 50px;
     font-size: 7px;
     /* align-items: center; */
 }
