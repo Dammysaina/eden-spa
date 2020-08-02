@@ -15,7 +15,7 @@ const PostListPage = (props) => {
                     <img src={d.data.thumbnail} alt="thumbail" style={{height: "200px"}}/>
                     <div className="card-text">
                         <h3>{d.data.title}</h3>
-                        <h4>Date:9th September, 2020.</h4>
+                        <h4>{new Date((d.data.created_utc)*1000).toUTCString()}</h4>
                         <span><img src={'/images/love.svg'} alt=""/>{d.data.ups} votes</span>
                         <button onClick={(e) => {
                           e.preventDefault();
